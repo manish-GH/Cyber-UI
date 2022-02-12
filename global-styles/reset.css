@@ -1,15 +1,17 @@
 :root {
 	--theme-primary: #f85f6a;
-	--theme-primary-light: #fe8f94;
-	--theme-primary-lighter: #ffc8d0;
-	--theme-secondary: #5ff8ee;
+	/* --theme-primary-light: #fe8f94; */
+	--theme-primary-light: #ffc8d0;
+	--theme-primary-lighter: #ffafba;
+	--theme-secondary: #1199d8;
 	--theme-warning: #ffd400;
 	/* --theme-warning: #FBAF00; */
 	--theme-success: #6ab547;
 	--theme-error: #ee3625;
 	/* --theme-error: #eb4943; */
 	--theme-bg: #ededed;
-	--theme-text: #282828;
+	--theme-text-black: #282828;
+	--theme-text-white: #ffffff;
 }
 
 * {
@@ -23,6 +25,54 @@ html {
 }
 
 body {
+	width: 100vw;
+	height: 100vh;
 	background-color: var(--theme-bg);
-	color: var(--theme-text);
+	color: var(--theme-text-black);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	border: 1px solid red;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 2.5rem;
+	line-height: 4rem;
+}
+h2 {
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+h3 {
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+h4 {
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+p {
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+
+li {
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+
+i {
+	font-size: 1.5rem;
 }

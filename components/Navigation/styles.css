@@ -4,9 +4,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 8px 16px;
-	color: white;
+	padding: 8px 1rem;
+	color: var(--theme-text-white);
 	background-color: var(--theme-primary);
+}
+
+.nav-bar-logo {
+	margin: 0% 1rem;
+	color: var(--theme-text-white);
 }
 
 .nav-bar-logo:hover {
@@ -15,13 +20,18 @@
 
 .nav-bar-main {
 	display: flex;
+	align-items: center;
 }
 
 .page-link {
-	text-decoration: none;
-	color: white;
-	margin: 0 8px;
+	border: 2px solid var(--theme-primary);
+	color: var(--theme-text-white);
+	margin: 0 1rem;
 }
 .socials-link {
-	color: white;
+	color: var(--theme-text-white);
+}
+
+.page-active {
+	border-bottom: 2px solid var(--theme-text-white);
 }
