@@ -1,0 +1,28 @@
+:root {
+	--theme-primary: #f85f6a;
+	--theme-primary-light: #fe8f94;
+	--theme-primary-lighter: #ffc8d0;
+	--theme-secondary: #5ff8ee;
+	--theme-warning: #ffd400;
+	/* --theme-warning: #FBAF00; */
+	--theme-success: #6ab547;
+	--theme-error: #ee3625;
+	/* --theme-error: #eb4943; */
+	--theme-bg: #ededed;
+	--theme-text: #282828;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--theme-bg);
+	color: var(--theme-text);
+}

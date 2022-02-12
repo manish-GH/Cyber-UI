@@ -1,0 +1,27 @@
+@import url(../../styles.css);
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 16px;
+	color: white;
+	background-color: var(--theme-primary);
+}
+
+.nav-bar-logo:hover {
+	cursor: pointer;
+}
+
+.nav-bar-main {
+	display: flex;
+}
+
+.page-link {
+	text-decoration: none;
+	color: white;
+	margin: 0 8px;
+}
+.socials-link {
+	color: white;
+}
