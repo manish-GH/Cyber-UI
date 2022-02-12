@@ -7,6 +7,9 @@
 .sidebar {
 	padding: 0 1rem;
 	border-right: 1px solid var(--theme-primary);
+	position: sticky;
+	height: 100vh;
+	top: 0;
 }
 
 .sidebar-item {
