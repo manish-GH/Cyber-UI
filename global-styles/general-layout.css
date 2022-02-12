@@ -46,6 +46,7 @@
 	background-color: var(--theme-bg-white);
 	border-radius: 1rem;
 	max-width: 1200px;
+	margin: 1rem 0;
 }
 .component-text {
 	max-width: 1200px;
