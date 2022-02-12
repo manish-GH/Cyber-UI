@@ -9,7 +9,8 @@
 	--theme-success: #6ab547;
 	--theme-error: #ee3625;
 	/* --theme-error: #eb4943; */
-	--theme-bg: #ededed;
+	--theme-bg-grey: #ededed;
+	--theme-bg-white: #ffffff;
 	--theme-text-black: #282828;
 	--theme-text-white: #ffffff;
 }
@@ -27,12 +28,11 @@ html {
 body {
 	width: 100vw;
 	height: 100vh;
-	background-color: var(--theme-bg);
+	background-color: var(--theme-bg-grey);
 	color: var(--theme-text-black);
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	border: 1px solid red;
 }
 
 h1 {
@@ -57,9 +57,9 @@ h4 {
 }
 
 p {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 1.5rem;
-	line-height: 3rem;
+	line-height: 2rem;
 }
 
 li {

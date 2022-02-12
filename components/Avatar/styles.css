@@ -1,1 +1,63 @@
 @import url(../../styles.css);
+
+.avatar:hover {
+	cursor: pointer;
+	background-color: var(--theme-primary-light);
+}
+
+.avatar .avatar-img {
+	border-radius: 50%;
+}
+
+.avatar-xl .avatar-img {
+	width: 7.5rem;
+}
+.avatar-l .avatar-img {
+	width: 6rem;
+}
+.avatar-m .avatar-img {
+	width: 5rem;
+}
+.avatar-s .avatar-img {
+	width: 4rem;
+}
+.avatar-xs .avatar-img {
+	width: 3rem;
+}
+
+.avatar .avatar-text {
+	border-radius: 50%;
+}
+
+.avatar-xl .avatar-text {
+	width: 7.5rem;
+	height: 7.5rem;
+	font-size: 3.2rem;
+}
+.avatar-l .avatar-text {
+	width: 6rem;
+	height: 6rem;
+	font-size: 2.5rem;
+}
+.avatar-m .avatar-text {
+	width: 5rem;
+	height: 5rem;
+	font-size: 2rem;
+}
+.avatar-s .avatar-text {
+	width: 4rem;
+	height: 4rem;
+	font-size: 1.5rem;
+}
+.avatar-xs .avatar-text {
+	width: 3rem;
+	height: 3rem;
+	font-size: 1.2rem;
+}
+.avatar-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--theme-primary);
+	color: var(--theme-text-white);
+}
