@@ -6,7 +6,10 @@
 
 .sidebar {
 	padding: 0 1rem;
-	border-right: 1px solid red;
+	border-right: 1px solid var(--theme-primary);
+	position: sticky;
+	height: 100vh;
+	top: 0;
 }
 
 .sidebar-item {
@@ -32,4 +35,49 @@
 .sidebar-item-active a {
 	color: var(--theme-text-white);
 	background-color: var(--theme-primary);
+}
+
+.component {
+	padding: 0 2rem;
+}
+
+.component-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: var(--theme-bg-white);
+	border-radius: 1rem;
+	max-width: 1200px;
+	margin: 1rem 0;
+}
+.component-text {
+	max-width: 1200px;
+}
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 8rem;
+	width: 8rem;
+	border-radius: 1rem;
+}
+
+.highlight {
+	color: var(--theme-primary);
+	font-size: 1.6rem;
+}
+
+.code-snippet {
+	max-width: 1200px;
+}
+
+@media (min-width: 1800px) {
+	.flex-center-component {
+		display: flex;
+		justify-content: center;
+	}
+	.component-container {
+		width: 1200px;
+	}
 }
