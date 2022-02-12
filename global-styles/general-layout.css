@@ -1,0 +1,35 @@
+.grid-container {
+	flex-grow: 1;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+	padding: 0 1rem;
+	border-right: 1px solid red;
+}
+
+.sidebar-item {
+	border-radius: 8px;
+	list-style: none;
+	margin: 1rem 0;
+	display: flex;
+	overflow: hidden;
+}
+
+.link-text {
+	color: var(--theme-text-black);
+	padding-left: 2rem;
+	height: 100%;
+	width: 100%;
+}
+
+.sidebar-item:hover {
+	cursor: pointer;
+	background-color: var(--theme-primary-light);
+}
+
+.sidebar-item-active a {
+	color: var(--theme-text-white);
+	background-color: var(--theme-primary);
+}
