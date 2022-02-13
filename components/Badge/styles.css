@@ -1,1 +1,91 @@
 @import url(../../styles.css);
+
+.badge-container {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+.main {
+	display: flex;
+	align-items: center;
+}
+
+.badge {
+	position: absolute;
+	border: 1px solid var(--theme-bg-white);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--theme-text-white);
+	background-color: var(--theme-primary);
+}
+
+.badge-l {
+	width: 1.8rem;
+	height: 1.8rem;
+	font-size: 1.5rem;
+}
+
+.badge-m {
+	width: 1.5rem;
+	height: 1.5rem;
+	font-size: 1.2rem;
+}
+
+.badge-s {
+	width: 1.1rem;
+	height: 1.1rem;
+	font-size: 0.8rem;
+}
+
+.badge-count.badge-s {
+	top: -50%;
+	right: -50%;
+}
+.badge-count.badge-m {
+	top: -35%;
+	right: -35%;
+}
+.badge-count.badge-l {
+	top: -20%;
+	right: -20%;
+}
+
+.badge-status {
+	position: relative;
+	right: 20%;
+	border: 3px solid var(--theme-bg-white);
+}
+
+.avatar-xl .badge-status {
+	height: 1.8rem;
+	width: 1.8rem;
+}
+.avatar-l .badge-status {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+.avatar-m .badge-status {
+	height: 1.2rem;
+	width: 1.2rem;
+}
+.avatar-s .badge-status {
+	height: 1rem;
+	width: 1rem;
+}
+.avatar-xs .badge-status {
+	height: 0.8rem;
+	width: 0.8rem;
+}
+
+.badge-green {
+	background-color: var(--theme-badge-green);
+}
+.badge-red {
+	background-color: var(--theme-badge-red);
+}
+.badge-yellow {
+	background-color: var(--theme-badge-yellow);
+}
