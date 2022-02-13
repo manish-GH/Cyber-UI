@@ -1,1 +1,44 @@
 @import url(../../styles.css);
+
+.alert {
+	padding: 1rem 1rem;
+	width: 100%;
+	height: 2.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 5px;
+	font-size: 1.25rem;
+}
+
+.alert-info {
+	background-color: var(--theme-secondary-light);
+	color: var(--theme-secondary);
+}
+
+.alert-success {
+	background-color: var(--theme-success-light);
+	color: var(--theme-success);
+}
+
+.alert-error {
+	background-color: var(--theme-error-light);
+	color: var(--theme-error);
+}
+
+.alert-warning {
+	background-color: var(--theme-warning-light);
+	color: var(--theme-warning);
+}
+
+i {
+	font-size: 1.2rem;
+}
+
+.alert-icon {
+	margin-right: 5px;
+}
+
+i:hover {
+	cursor: pointer;
+}
