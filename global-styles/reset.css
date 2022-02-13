@@ -18,6 +18,9 @@
 	--theme-bg-white: #ffffff;
 	--theme-text-black: #282828;
 	--theme-text-white: #ffffff;
+	--theme-badge-green: #31d843;
+	--theme-badge-red: #c5283d;
+	--theme-badge-yellow: #ffd166;
 }
 
 * {
