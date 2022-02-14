@@ -38,3 +38,10 @@
 .page-active {
 	border-bottom: 2px solid var(--theme-text-white);
 }
+
+.nav-bar i {
+	font-size: 2rem;
+}
+.nav-bar i:hover {
+	background-color: inherit;
+}
