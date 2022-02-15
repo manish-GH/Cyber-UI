@@ -1,19 +1,16 @@
 :root {
 	--theme-primary: #f85f6a;
+	--theme-primary-600: #df555f;
 	--theme-primary-400: #ff7d88;
 	--theme-primary-300: #ffc8d0;
-	/* --theme-primary-300: #ffafba; */
 	--theme-info: #1199d8;
 	--theme-info-400: #9fd6ef;
 	--theme-warning: #e7b100;
 	--theme-warning-400: #fff2b2;
-	/* --theme-warning: #FBAF00; */
 	--theme-success: #6ab547;
 	--theme-success-400: #c3e1b5;
 	--theme-error: #ee3625;
 	--theme-error-400: #f9c2bd;
-	/* --theme-error: #ef4a3a; */
-	/* --theme-error: #eb4943; */
 	--theme-bg-grey: #ededed;
 	--theme-bg-white: #ffffff;
 	--theme-text-black: #282828;

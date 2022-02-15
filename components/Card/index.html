@@ -84,75 +84,187 @@
 					<p class="component-text">
 						Use the Card Component to display information for a single object
 						with a text, as well as an image. Use the class
-						<span class="highlight">card</span> for card component.
-					</p>
-					<h2 class="component-sub-header">Text only cards</h2>
-					<p class="component-text">
-						Use the classes
-						<span class="highlight">
-							btn-primary btn-secondary btn-link btn-icon btn-floating</span
-						>
-						for buttons of different types. You can refer to the code given
-						below. (The floating button is on the bottom right)
+						<span class="highlight">card</span> for card component with classes 
+						<span class="highlight">card-vertical card-horizontal</span> for vertical 
+						and horizontal cards respectively. You can refer to the codes given below for each type.
 					</p>
 
-					<div class="component-display horizontal">
-						<button class="btn btn-primary">Primary</button>
-						<button class="btn btn-secondary">Secondary</button>
-						<a href="#" class="btn btn-link">Link</a>
-						<button class="btn btn-icon">
-							<i class="fas fa-shopping-cart"></i>
-						</button>
-						<button class="btn btn-floating btm-r">
-							<i class="fas fa-arrow-up"></i>
-						</button>
+					<h2 class="component-sub-header">Text only cards</h2>
+					<div class="card-container">
+						<div class="card card-vertical">
+							<div>
+								<h3 class="card-heading">The Fountainhead</h1>
+							</div>
+							<div class="card-text">	
+								<p>The Fountainhead is a 1943 novel by Russian-American
+									 author Ayn Rand, her first major literary success. 
+									 The novel's protagonist, Howard Roark, is an intransigent 
+									 young architect.
+								</p>
+							</div>
+						    <div class="card-btns">
+								<button class=" btn btn-secondary">Show more</button>	
+							</div>
+						</div>
 					</div>
 					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-primary.html&style=a11y-dark&showCopy=on"></script>
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FCard%2Fcard-text.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+
+					<h2 class="component-sub-header">Card with badge</h2>
+					<div class="card-container">
+						<div class="card card-vertical">
+							<div>
+								<img
+									class="card-img"
+									src="../../assets/cover.jpg"
+									alt="random image"
+								/>
+								<h3 class="card-heading">The Fountainhead<span><button class="btn btn-icon"><i class="far fa-heart"></i></button></span></h1>
+							</div>
+							<div class="card-text">
+								<p>by Ayn Rand</p>
+								<p>₹237.00</p>
+							</div>
+							<div class="card-btns">
+								<button class=" btn btn-secondary">Add to cart</button>
+							</div>
+							<div class="card-badge">New!</div>
+						</div>
 					</div>
 					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-secondary.html&style=a11y-dark&showCopy=on"></script>
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FCard%2Fcard-badge.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+
+					<h2 class="component-sub-header">Card with dismiss</h2>
+					<div class="card-container">
+						<div class="card card-vertical">
+							<div>
+								<img
+									class="card-img"
+									src="../../assets/cover.jpg"
+									alt="random image"
+								/>
+								<h3 class="card-heading">The Fountainhead<span><button class="btn btn-icon"><i class="far fa-heart"></i></button></span></h1>
+							</div>
+							<div class="card-text">
+								<p>by Ayn Rand</p>
+								<p>₹237.00</p>
+							</div>
+							<div class="card-btns">
+								<button class=" btn btn-secondary">Add to cart</button>
+								<button class="btn btn-icon dismiss-btn"><i class="fas fa-times"></i></button>
+							</div>
+							<div class="card-badge">New!</div>
+						</div>
 					</div>
 					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-link.html&style=a11y-dark&showCopy=on"></script>
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FCard%2Fcard-dismiss.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+			
+					<h2 class="component-sub-header">Horizontal and Vertical cards</h2>
+					<div class="card-container">
+						<div class="card card-vertical">
+							<div>
+								<img
+									class="card-img"
+									src="../../assets/cover.jpg"
+									alt="random image"
+								/>
+								<h3 class="card-heading">The Fountainhead<span><button class="btn btn-icon"><i class="far fa-heart"></i></button></span></h1>
+							</div>
+							<div class="card-text">
+								<p>by Ayn Rand</p>
+								<p>₹237.00</p>
+							</div>
+							<div class="card-btns">
+								<button class=" btn btn-secondary">Add to cart</button>
+								<button class="btn btn-icon dismiss-btn"><i class="fas fa-times"></i></button>
+							</div>
+							<div class="card-badge">New!</div>
+						</div>
+						<div class="card card-horizontal">
+							<div>
+								<img
+									class="card-img"
+									src="../../assets/cover.jpg"
+									alt="random image"
+								/>
+							</div>
+							<div class="card-horizontal-data">
+								<h3 class="card-heading">The Fountainhead</h1>
+								<div class="card-text">
+									<p>by Ayn Rand</p>
+									<p>₹237.00</p>
+								</div>
+								<div class="card-btns">
+									<button class=" btn btn-secondary">Add to cart</button>
+									<button class=" btn btn-secondary">Add to wishlist</button>
+									<button class="btn btn-icon dismiss-btn"><i class="fas fa-times"></i></button>
+								</div>
+								<div class="card-badge">New!</div>
+							</div>
+						</div>
 					</div>
 					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-icon.html&style=a11y-dark&showCopy=on"></script>
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FCard%2Fcard-vertical.html&style=a11y-dark&showCopy=on"></script>
 					</div>
 					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-floating.html&style=a11y-dark&showCopy=on"></script>
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FCard%2Fcard-horizontal.html&style=a11y-dark&showCopy=on"></script>
 					</div>
-					<h2 class="component-sub-header">Button disabled</h2>
-					<p class="component-text">
-						Use the class <span class="highlight">btn-disabled</span> to disable
-						any button. You can refer to the code given below. (The floating
-						button is on the bottom left)
-					</p>
-					<div class="component-display horizontal">
-						<button class="btn btn-primary btn-disabled">Primary</button>
-						<button class="btn btn-secondary btn-disabled">Secondary</button>
-						<a href="#" class="btn btn-link btn-disabled">Link</a>
-						<button class="btn btn-icon btn-disabled">
-							<i class="fas fa-shopping-cart"></i>
-						</button>
-						<button class="btn btn-floating btm-l btn-disabled">
-							<i class="fas fa-arrow-up"></i>
-						</button>
+
+					<h2 class="component-sub-header">Card with text overlay</h2>
+					<div class="card-container">
+						<div class="card card-vertical">
+							<div>
+								<img
+									class="card-img"
+									src="../../assets/cover.jpg"
+									alt="random image"
+								/>
+								<h3 class="card-heading">The Fountainhead<span><button class="btn btn-icon"><i class="far fa-heart"></i></button></span></h1>
+							</div>
+							<div class="card-text">
+								<p>by Ayn Rand</p>
+								<p>₹237.00</p>
+							</div>
+							<div class="card-btns">
+									<button class=" btn btn-secondary">Add to cart</button>
+									<button class="btn btn-icon dismiss-btn"><i class="fas fa-times"></i></button>
+							</div>
+							<div class="card-badge">New!</div>
+							<div class="card-text-overlay">OUT OF STOCK</div>
+						</div>
+						<div class="card card-horizontal">
+							<div>
+								<img
+									class="card-img"
+									src="../../assets/cover.jpg"
+									alt="random image"
+									/>
+							</div>
+							<div class="card-horizontal-data">
+								<h3 class="card-heading">
+								The Fountainhead</h1>
+								<div class="card-text">
+									<p>by Ayn Rand</p>
+									<p>₹237.00</p>
+								</div>
+								<div class="card-btns">
+									<button class=" btn btn-secondary">Add to cart</button>
+									<button class=" btn btn-secondary">Add to wishlist</button>
+									<button class="btn btn-icon dismiss-btn"><i class="fas fa-times"></i></button>
+								</div>
+								<div class="card-badge">New!</div>
+								<div class="card-text-overlay">OUT OF STOCK</div>
+							</div>
+						</div>
 					</div>
 					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-primary-disabled.html&style=a11y-dark&showCopy=on"></script>
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FCard%2Fcard-vertical-overlay.html&style=a11y-dark&showCopy=on"></script>
 					</div>
 					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-secondary-disabled.html&style=a11y-dark&showCopy=on"></script>
-					</div>
-					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-link-disabled.html&style=a11y-dark&showCopy=on"></script>
-					</div>
-					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-icon-disabled.html&style=a11y-dark&showCopy=on"></script>
-					</div>
-					<div class="code-snippet">
-						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FButton%2Fbutton-floating-disabled.html&style=a11y-dark&showCopy=on"></script>
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FCard%2Fcard-horizontal-overlay.html&style=a11y-dark&showCopy=on"></script>
 					</div>
 				</div>
 			</div>

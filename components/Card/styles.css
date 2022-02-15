@@ -1,1 +1,111 @@
 @import url(../../styles.css);
+
+:root {
+	--badge-border-radius: 8px;
+	--theme-badge-box-shadow: rgba(110, 110, 110, 0.6);
+}
+
+.card-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.card {
+	background-color: var(--theme-bg-white);
+	position: relative;
+	box-shadow: 2px 2px 5px 0px var(--theme-badge-box-shadow);
+	border-radius: var(--badge-border-radius);
+}
+
+.card.card-vertical {
+	display: flex;
+	flex-direction: column;
+	max-width: 15.5rem;
+	padding-bottom: 5px;
+}
+.card.card-horizontal {
+	display: flex;
+	width: fit-content;
+	max-height: 15rem;
+}
+
+.card-horizontal-data {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0 5px;
+}
+
+.card-vertical .card-img {
+	width: 100%;
+	height: 20rem;
+	border-radius: var(--badge-border-radius);
+}
+.card-horizontal .card-img {
+	width: 100%;
+	height: 15rem;
+	border-radius: var(--badge-border-radius);
+}
+
+.card-vertical .card-heading {
+	margin: 0 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.card-horizontal .card-heading {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0 5px;
+}
+
+.card-heading .btn-icon {
+	color: var(--theme-primary);
+}
+
+.card-text p {
+	margin: 0 5px;
+	font-size: 1.2rem;
+}
+
+.card-vertical .card-btns {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.card-btns .dismiss-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: var(--theme-primary);
+}
+
+.card-badge {
+	padding: 3px 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: var(--theme-text-white);
+	background-color: var(--theme-primary);
+	border-radius: var(--badge-border-radius) 0 0 0;
+}
+
+.card-text-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.85;
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: var(--theme-primary);
+	background-color: var(--theme-bg-grey);
+	border-radius: var(--badge-border-radius);
+}
