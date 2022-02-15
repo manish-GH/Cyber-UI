@@ -91,18 +91,18 @@
 }
 
 .btn-disabled:hover {
-	cursor: auto;
+	cursor: not-allowed;
 }
 .btn-disabled:hover i {
-	cursor: auto;
+	cursor: not-allowed;
 }
 .btn-disabled:hover.btn-secondary {
-	cursor: auto;
+	cursor: not-allowed;
 	background-color: var(--theme-text-white);
 }
 .btn-disabled:hover.btn-icon {
 	background-color: inherit;
 }
 .btn-disabled:hover.btn-floating {
-	cursor: auto;
+	cursor: not-allowed;
 }
