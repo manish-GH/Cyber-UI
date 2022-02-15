@@ -12,8 +12,8 @@
 }
 
 .alert-info {
-	background-color: var(--theme-secondary-light);
-	color: var(--theme-secondary);
+	background-color: var(--theme-info-light);
+	color: var(--theme-info);
 }
 
 .alert-success {

@@ -29,7 +29,7 @@
 
 .sidebar-item:hover {
 	cursor: pointer;
-	background-color: var(--theme-primary-light);
+	background-color: var(--theme-primary-lighter);
 }
 
 .sidebar-item-active a {

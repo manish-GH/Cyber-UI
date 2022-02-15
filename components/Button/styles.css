@@ -1,1 +1,108 @@
 @import url(../../styles.css);
+
+.btn {
+	border: none;
+	border-radius: 6px;
+	font-size: 1rem;
+	background-color: inherit;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn-primary {
+	padding: 0.6rem 1.2rem;
+	border: 1px solid var(--theme-primary);
+	background-color: var(--theme-primary);
+	color: var(--theme-text-white);
+}
+.btn-primary:hover {
+	background-color: var(--theme-primary-light);
+}
+
+.btn-secondary {
+	padding: 0.6rem 1.2rem;
+	border: 1px solid var(--theme-primary);
+	background-color: var(--theme-text-white);
+	color: var(--theme-primary);
+}
+.btn-secondary:hover {
+	background-color: var(--theme-primary);
+	color: var(--theme-text-white);
+}
+
+.btn-link {
+	border-bottom: 1px solid var(--theme-primary);
+	border-radius: 0;
+	color: var(--theme-primary);
+}
+.btn-link:hover {
+	color: var(--theme-primary-lighter);
+	border-bottom: 1px solid var(--theme-primary-lighter);
+}
+
+.btn-icon {
+	width: 2.1rem;
+	height: 2.1rem;
+	border-radius: 50%;
+}
+.btn-icon:hover {
+	background-color: var(--theme-primary-lighter);
+}
+
+.btn-floating {
+	width: 3rem;
+	height: 3rem;
+	background-color: var(--theme-primary);
+	color: var(--theme-text-white);
+	border-radius: 50%;
+	padding: 5px;
+	position: fixed;
+}
+.btn-floating:hover {
+	background-color: var(--theme-primary-light);
+}
+.btm-r {
+	z-index: 1;
+	bottom: 10px;
+	right: 10px;
+}
+.btm-l {
+	z-index: 1;
+	bottom: 10px;
+	left: 10px;
+}
+
+.btn-disabled.btn-primary {
+	background-color: var(--theme-primary-lighter);
+	border: 1px solid var(--theme-primary-lighter);
+}
+.btn-disabled.btn-secondary {
+	border: 1px solid var(--theme-primary-lighter);
+	color: var(--theme-primary-lighter);
+}
+.btn-disabled.btn-link {
+	border-bottom: 1px solid var(--theme-primary-lighter);
+	color: var(--theme-primary-lighter);
+}
+.btn-disabled.btn-floating {
+	background-color: var(--theme-primary-lighter);
+}
+
+.btn-disabled:hover {
+	cursor: auto;
+}
+.btn-disabled:hover i {
+	cursor: auto;
+}
+.btn-disabled:hover.btn-secondary {
+	cursor: auto;
+	background-color: var(--theme-text-white);
+}
+.btn-disabled:hover.btn-icon {
+	background-color: inherit;
+}
+.btn-disabled:hover.btn-floating {
+	cursor: auto;
+}
