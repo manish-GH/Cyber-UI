@@ -12,22 +12,22 @@
 }
 
 .alert-info {
-	background-color: var(--theme-info-light);
+	background-color: var(--theme-info-400);
 	color: var(--theme-info);
 }
 
 .alert-success {
-	background-color: var(--theme-success-light);
+	background-color: var(--theme-success-400);
 	color: var(--theme-success);
 }
 
 .alert-error {
-	background-color: var(--theme-error-light);
+	background-color: var(--theme-error-400);
 	color: var(--theme-error);
 }
 
 .alert-warning {
-	background-color: var(--theme-warning-light);
+	background-color: var(--theme-warning-400);
 	color: var(--theme-warning);
 }
 

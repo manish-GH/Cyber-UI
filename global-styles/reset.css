@@ -1,19 +1,16 @@
 :root {
 	--theme-primary: #f85f6a;
-	--theme-primary-light: #ff7d88;
-	--theme-primary-lighter: #ffc8d0;
-	/* --theme-primary-lighter: #ffafba; */
+	--theme-primary-600: #df555f;
+	--theme-primary-400: #ff7d88;
+	--theme-primary-300: #ffc8d0;
 	--theme-info: #1199d8;
-	--theme-info-light: #9fd6ef;
+	--theme-info-400: #9fd6ef;
 	--theme-warning: #e7b100;
-	--theme-warning-light: #fff2b2;
-	/* --theme-warning: #FBAF00; */
+	--theme-warning-400: #fff2b2;
 	--theme-success: #6ab547;
-	--theme-success-light: #c3e1b5;
+	--theme-success-400: #c3e1b5;
 	--theme-error: #ee3625;
-	--theme-error-light: #f9c2bd;
-	/* --theme-error: #ef4a3a; */
-	/* --theme-error: #eb4943; */
+	--theme-error-400: #f9c2bd;
 	--theme-bg-grey: #ededed;
 	--theme-bg-white: #ffffff;
 	--theme-text-black: #282828;
@@ -36,12 +33,11 @@ html {
 
 body {
 	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: var(--theme-bg-grey);
 	color: var(--theme-text-black);
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
 }
 
 h1 {
