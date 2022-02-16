@@ -1,1 +1,44 @@
 @import url(../../styles.css);
+
+.input {
+	border: 1px solid var(--theme-primary);
+	border-radius: 5px;
+	padding: 8px;
+	width: 100%;
+	outline: none;
+}
+
+.input:focus {
+	outline: 1px solid var(--theme-primary);
+}
+
+.input-text-area {
+	height: 5rem;
+}
+
+.form-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form {
+	background-color: var(--theme-bg-white);
+	box-shadow: 2px 2px 5px 0px var(--theme-card-box-shadow);
+	border-radius: 8px;
+	max-width: 25rem;
+	padding: 0 2rem;
+}
+
+.form .input {
+	border: 1px solid var(--theme-error);
+	outline: 1px solid var(--theme-error);
+}
+
+.form-field {
+	margin: 1rem 0;
+}
+
+.form-err-msg {
+	color: var(--theme-error);
+}
