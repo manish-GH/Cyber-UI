@@ -78,10 +78,78 @@
 					</li>
 				</ul>
 			</div>
-			<div class="component">
-				<h2>Input</h2>
+			<div class="flex-center-component">
+				<div class="component">
+					<h1 class="component-header">Input</h1>
+					<p class="component-text">
+						Use the Input component to collect user data such as emails and
+						passwords. Use the class
+						<span class="highlight">input</span> for input component. You can
+						refer to the code given below.
+					</p>
+
+					<h2 class="component-sub-header">Input types</h2>
+
+					<div class="component-display vertical">
+						<input type="text" class="input" placeholder="Enter Text..." />
+						<input type="number" class="input" placeholder="Enter Number..." />
+						<input
+							type="password"
+							class="input"
+							placeholder="Enter Password..."
+						/>
+						<textarea
+							class="input input-text-area"
+							placeholder="Enter Comment..."
+						></textarea>
+					</div>
+					<div class="code-snippet">
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FInput%2Finput-text.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+					<div class="code-snippet">
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FInput%2Finput-number.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+					<div class="code-snippet">
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FInput%2Finput-password.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+					<div class="code-snippet">
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FInput%2Finput-text-area.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+
+					<h2 class="component-sub-header">Input Validation</h2>
+					<div class="form-container">
+						<form class="form">
+							<div class="form-field">
+								<label for="username" class="form-label">Username</label>
+								<input
+									type="text"
+									id="username"
+									class="input"
+									placeholder="Enter Text..."
+								/>
+								<span class="form-err-msg"
+									>Username must have at least 3 characters</span
+								>
+							</div>
+							<div class="form-field">
+								<label for="password" class="form-label">Password</label>
+								<input
+									type="password"
+									id="password"
+									class="input"
+									placeholder="Enter Password..."
+								/>
+								<span class="form-err-msg"
+									>Password must have at least 6 characters</span
+								>
+							</div>
+						</form>
+					</div>
+					<div class="code-snippet">
+						<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmanish-GH%2FCyber-UI-Code-Snippets%2Fblob%2Fdev%2FInput%2Finput-form-validation.html&style=a11y-dark&showCopy=on"></script>
+					</div>
+				</div>
 			</div>
 		</main>
-		<footer>FOOTER - ADD LATER</footer>
 	</body>
 </html>
