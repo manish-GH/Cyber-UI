@@ -1,1 +1,37 @@
 @import url(../../styles.css);
+
+.grid {
+	display: grid;
+	gap: 8px;
+	padding: 8px;
+	font-size: 1.5rem;
+}
+
+.grid-col-2 {
+	grid-template-columns: 1fr 1fr;
+}
+.grid-col-3 {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item-1 {
+	color: var(--theme-text-white);
+	background-color: var(--theme-info);
+	min-height: 20rem;
+	display: grid;
+	place-content: center;
+}
+.grid-item-2 {
+	color: var(--theme-text-white);
+	background-color: var(--theme-warning);
+	min-height: 20rem;
+	display: grid;
+	place-content: center;
+}
+.grid-item-3 {
+	color: var(--theme-text-white);
+	background-color: var(--theme-error);
+	min-height: 20rem;
+	display: grid;
+	place-content: center;
+}
