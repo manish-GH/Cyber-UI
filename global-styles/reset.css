@@ -13,11 +13,15 @@
 	--theme-error-400: #f9c2bd;
 	--theme-bg-grey: #f0f0f0;
 	--theme-bg-white: #ffffff;
+	--theme-bg-rating: #a0a0a0;
+	/* --theme-bg-rating: #363732; */
 	--theme-text-black: #282828;
 	--theme-text-white: #ffffff;
 	--theme-badge-green: #31d843;
 	--theme-badge-red: #c5283d;
 	--theme-badge-yellow: #ffd166;
+	--theme-rating-active: #ffd700;
+	--theme-rating-inactive: #ffffff;
 }
 
 * {
