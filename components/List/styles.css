@@ -1,1 +1,32 @@
 @import url(../../styles.css);
+
+.list-display {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.list-container {
+	box-shadow: 2px 2px 5px 0px var(--theme-badge-box-shadow);
+	padding: 10px;
+	border-radius: 10px;
+	background-color: var(--theme-bg-white);
+}
+
+.list-item {
+	list-style-type: none;
+	border-bottom: 1px solid var(--theme-primary);
+	width: 100%;
+	padding: 6px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.list-msg {
+	font-size: 1rem;
+	margin: 0 10px;
+}
+.list-time {
+	font-size: 0.8rem;
+}
