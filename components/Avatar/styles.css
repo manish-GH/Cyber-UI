@@ -1,17 +1,9 @@
 @import url(../../styles.css);
 
-/* Work on this later */
-/* .avatar:hover {
-	cursor: pointer;
-	background-color: var(--theme-primary-300);
-} */
-
 .avatar {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	/* height: 8rem;
-	width: 8rem; */
 	border-radius: 1rem;
 }
 

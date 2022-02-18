@@ -76,7 +76,6 @@
 
 .code-snippet {
 	max-width: 75rem;
-	/* overflow-x: auto; */
 }
 
 @media (min-width: 112.5em) {

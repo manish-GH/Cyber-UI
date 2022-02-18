@@ -1,1 +1,21 @@
 @import url(../../styles.css);
+
+.toast-container {
+	position: fixed;
+	bottom: 2rem;
+	left: 0;
+	width: 100vw;
+	display: none;
+	place-content: center;
+}
+
+.toast-msg {
+	padding: 5px 1rem;
+	font-size: 1.5rem;
+	min-width: 25rem;
+	border-radius: 5px;
+	display: grid;
+	place-content: center;
+	background-color: var(--theme-bg-toast);
+	color: var(--theme-text-white);
+}

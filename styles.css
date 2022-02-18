@@ -1,3 +1,63 @@
 @import url(./global-styles/reset.css);
 @import url(./global-styles/components.css);
 @import url(./global-styles/general-layout.css);
+
+.landing-page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main-grid {
+	padding: 0 1rem;
+	flex-grow: 1;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 5fr 3fr;
+}
+
+.main-description {
+	display: grid;
+	place-content: center;
+}
+
+.main-description-container {
+	box-shadow: 2px 2px 5px 0px var(--theme-card-box-shadow);
+	border-radius: 10px;
+	background-color: var(--theme-bg-white);
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-image {
+	display: grid;
+	place-content: center;
+}
+
+.main-image img {
+	width: 100%;
+	max-width: 40rem;
+}
+
+.main-installation {
+	display: grid;
+	place-content: center;
+}
+.main-installation-container {
+	box-shadow: 2px 2px 5px 0px var(--theme-card-box-shadow);
+	border-radius: 10px;
+	background-color: var(--theme-bg-white);
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main-code {
+	display: grid;
+	place-content: center;
+	width: 100%;
+}

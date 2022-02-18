@@ -8,11 +8,7 @@
 .rating {
 	padding: 5px;
 	background-color: var(--theme-bg-rating);
-	/* position: absolute; */
 	transform: rotateY(180deg);
-	/* position: absolute; */
-	/* direction: rtl; */
-	/* border: 1px solid red; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
